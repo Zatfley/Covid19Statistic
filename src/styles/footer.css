@@ -11,3 +11,14 @@ footer{
 footer > div{
     padding-left: 10px;
 }
+
+.dicoding-logo{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
