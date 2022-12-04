@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Statistic</title>
+</head>
+<body>
+    <header>
+        <h1>Covid 19 Statistic</h1>
+    </header>
+    <main>
+        <div class="content">
+            <div class="info">
+                <p>Penyakit virus corona (COVID-19) adalah penyakit menular yang disebabkan oleh virus SARS-CoV-2.</p>
+                <p>Sebagian besar orang yang tertular COVID-19 akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa penanganan khusus.</p>
+                <p> Namun, sebagian orang akan mengalami sakit parah dan memerlukan bantuan medis. 
+                    <a href="https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-how-is-it-transmitted" target="_blank" rel="noopener">
+                        <button class="external-link" title="external link for detail info about COVID-19"></button>
+                    </a>
+                </p>
+            </div>
+            <div class="region">
+                <form action="#">
+                    <select title="Select Region Data" id="select-region" autocomplete="off" placeholder="Pilih Negara">
+                  
+                    </select>
+                </form>
+                <h1 id="region-name"></h1>
+                <p>Last Update: <span id="last-update"></span></p>
+            </div>
+            <div class="confirmed">
+                <p>Confirmed</p>
+                <p id="confirmed-count">1313123123</p>
+            </div>
+            <div class="death">
+                <p>Death</p>
+                <p id="death-count">13131312221</p>
+            </div>
+            
+            <div class="credit-data">
+                Sumber Data: API from <a href="https://github.com/mathdroid/covid-19-api" target="_blank" rel="noopener">Github: mathdroid <button title="external link for API source" class="external-link"></button></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            dicoding
+            <p>front end fundamental</p>
+        </div>
+        <div>
+            Dimas Alfiansyah
+        </div>
+    </footer>
+</body>
+</html>

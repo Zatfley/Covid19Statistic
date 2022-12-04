@@ -1,0 +1,32 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(../../node_modules/tom-select/dist/css/tom-select.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../../assets/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.external-link{
+    background: url(../../assets/icon/external-link.svg);
+    background-size: contain;
+    width: 11px;
+    height: 11px;
+    border: none;
+    cursor: pointer;
+    line-height: 1px;
+}
+
+a {
+    text-decoration: underline;
+    color: #3366cc;
+}
