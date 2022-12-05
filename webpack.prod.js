@@ -1,8 +1,8 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { merge } from 'webpack-merge';
-import common from './webpack.common';
+const { merge } = require('webpack-merge');
+const common = require('./webpack.common');
 
-export default merge(common, {
+module.exports = merge(common, {
   mode: 'production',
   module: {
     rules: [
